@@ -4,7 +4,7 @@ public class thg {
       Scanner sc=new Scanner(System.in);
       System.out.println("enter the year");
       int year=sc.nextInt();
-      if(year%4)
+      if(year%4==0)
       sc.close();
 
 
