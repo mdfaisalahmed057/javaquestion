@@ -4,6 +4,7 @@
 2 for swapping the values of high abd low
 3 and find the maximum index in the array through maxindex 
 
+
  * 
  */
 
@@ -18,7 +19,7 @@ public class selectionsort {
 
     static void selectionsorts(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            int last = arr.length - i - 1;
+            int last = arr.length - i - 1;// 7-0-1=6,7-1-1=6...
             int maxIndex = getMAx(arr, 0, last);
             swap(arr, maxIndex, last);
         }
