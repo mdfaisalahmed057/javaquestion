@@ -1,5 +1,4 @@
 // package binary;
-
 // public class mountain {
 //     public static void main(String[] args) {
 //       int arr[]={0,1,0};
