@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch badverson",
+            "request": "launch",
+            "mainClass": "binary.badverson",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
             "name": "Launch guessnum",
             "request": "launch",
             "mainClass": "binary.guessnum",
