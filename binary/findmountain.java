@@ -5,7 +5,6 @@ public class findmountain {
         int arr[]={1,2,3,4,5,3,1};
         int target=3;
         System.out.println(index(arr, target));
-
     }
 
     static int index(int arr[], int target) {
