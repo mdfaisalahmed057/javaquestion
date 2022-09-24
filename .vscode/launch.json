@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch guessnum",
+            "request": "launch",
+            "mainClass": "binary.guessnum",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch squarert",
+            "request": "launch",
+            "mainClass": "binary.squarert",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
             "name": "Launch findmountain",
             "request": "launch",
             "mainClass": "binary.findmountain",
