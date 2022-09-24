@@ -1,3 +1,4 @@
+package arrrays;
 import java.util.*;
 public class bulbmachine
 {
