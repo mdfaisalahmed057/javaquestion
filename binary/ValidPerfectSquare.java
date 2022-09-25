@@ -6,7 +6,6 @@ public class ValidPerfectSquare {
     }
     static int square(int arr[]){
         return -1;
-
     }
     
 }
