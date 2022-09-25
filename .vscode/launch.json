@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ValidPerfectSquare",
+            "request": "launch",
+            "mainClass": "binary.ValidPerfectSquare",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
             "name": "Launch twosum",
             "request": "launch",
             "mainClass": "binary.twosum",

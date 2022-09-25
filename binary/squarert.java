@@ -90,8 +90,7 @@ public class squarert {
 			//instead of mid*mid we are giving x/mid to tackle overflow of integer range when multiplying with bigger numbers
             if(mid <= x/mid){
                 ans = mid;
-                System.out.println(ans);
-                start = mid + 1;
+                 start = mid + 1;
             }else{
                 end = mid -1;
             }
