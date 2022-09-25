@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch twosum",
+            "request": "launch",
+            "mainClass": "binary.twosum",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
             "name": "Launch badverson",
             "request": "launch",
             "mainClass": "binary.badverson",
