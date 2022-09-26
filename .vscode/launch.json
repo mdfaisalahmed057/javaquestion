@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mincostropes",
+            "request": "launch",
+            "mainClass": "arrrays.mincostropes",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallestsubsetgreatersum",
+            "request": "launch",
+            "mainClass": "arrrays.smallestsubsetgreatersum",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarysearch",
+            "request": "launch",
+            "mainClass": "binary.binarysearch",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch strictlysmgr",
+            "request": "launch",
+            "mainClass": "arrrays.strictlysmgr",
+            "projectName": "java_920131ae"
+        },
+        {
+            "type": "java",
             "name": "Launch ValidPerfectSquare",
             "request": "launch",
             "mainClass": "binary.ValidPerfectSquare",
