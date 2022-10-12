@@ -1,4 +1,4 @@
-package arrrays;
+package arrrays.companies;
 import java.util.*;
 public class bulbmachine
 {
