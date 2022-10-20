@@ -20,6 +20,7 @@ public class threesum {
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum == 0)
                     res.add(Arrays.asList(nums[i], nums[j++], nums[k--]));
+        // . Arrays class is used to return a fixed-size list backed by the specified array
                 else if (sum > 0)
                     k--;
                 else if (sum < 0)
