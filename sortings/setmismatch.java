@@ -1,12 +1,8 @@
  
-
-package sortings;
-
- 
 public class setmismatch {
     public static void main(String[] args) {
         int arr[]={1,2,2,4};
-        findErrorNums(arr);
+         System.out.println(findErrorNums(arr));
     }
     public static  int[] findErrorNums(int[] arr) {
         int i = 0;
