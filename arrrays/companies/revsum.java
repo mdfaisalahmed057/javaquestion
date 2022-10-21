@@ -1,3 +1,5 @@
+package arrrays.companies;
+
 public class revsum {
     public static void main(String[] args) {
         int num=21;
