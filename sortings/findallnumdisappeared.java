@@ -1,9 +1,7 @@
-package sortings;
-// 448. Find All Numbers Disappeared in an Array
+ // 448. Find All Numbers Disappeared in an Array
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
+ 
 // Easy
 
 import java.util.List;
