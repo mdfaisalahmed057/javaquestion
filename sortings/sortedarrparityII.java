@@ -1,5 +1,4 @@
-package sortings;
-
+  
  
 public class sortedarrparityII {
     public static void main(String[] args) {

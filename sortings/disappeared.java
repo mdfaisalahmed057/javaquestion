@@ -37,26 +37,27 @@ public class disappeared{
         System.out.println(findDisappearedNumbers(arr));
         
     }
-    public static List<Integer> findDisappearedNumbers(int[] nums) {
+    public static List<Integer> findDisappearedNumbers(int[] nums) {             
         int i=0;
         while(i<nums.length){
-            int correct=nums[i]-1;
-            if(nums[i]!=correct){
+            int correct=nums[i]-1;// checking for the crt index
+            if(nums[i]!=nums[correct])
             swap(nums, i, correct);
-            }else{
+            else
                 i++;
-            }
+            
         }
-        List<Integer>res=new ArrayList<>();
-        for(int ind=0;i<nums.length;i++){
-            if(nums[ind]!=ind+1){
-                res.add(nums[i]);
-                 
-            }
-        }
+         
 
-        return res;
-    }
+        List<Integer> list = new ArrayList<>();
+        for(int idx=0;idx<nums.length;idx++)
+            if(nums[idx] != idx+1)
+                list.add(idx+1);
+        return list;
+                 
+            
+ 
+     }
     static void  swap(int arr[],int first,int second){
             int temp=arr[first];
             arr[first]=arr[second];

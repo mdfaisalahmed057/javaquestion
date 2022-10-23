@@ -1,5 +1,4 @@
-// package sortings;
-
+ 
 // import java.util.Arrays;
 
 // public class makezerobysubtracting {
@@ -50,8 +49,7 @@
 // // }
 
 
-package sortings;
-
+ 
 import java.util.HashSet;
 
 // import java.util.Arrays;
