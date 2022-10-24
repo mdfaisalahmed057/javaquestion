@@ -1,1 +1,7 @@
         String[] ans = res.toArray(new String[res.size()]);
+
+
+        //comparing two integer
+        Collections.sort(ans, (a, b) -> {               // O(n * logn)
+                return map.get(a) == map.get(b) ? b - a : map.get(a) - map.get(b);
+             });
