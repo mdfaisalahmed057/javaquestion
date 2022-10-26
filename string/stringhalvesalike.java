@@ -1,7 +1,7 @@
 import java.util.*;
 public class stringhalvesalike{
     public static void main(String[] args) {
-        String str="fsal";
+        String str="fial";
         System.out.println(halvesAreAlike(str));
         
     }
