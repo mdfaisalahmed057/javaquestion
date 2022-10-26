@@ -14,12 +14,13 @@ public class divideequal {
             }  
             else {  
                 for(int i = 0; i < len; i = i+chars) {  
- 
+  
                      //Dividing string in n equal part using substring()  
                     String part = str.substring(i, i+chars);  
+                
                       equalStr[temp] = part;  
                     temp++;  
-                    
+                     
                 
             }
         System.out.println(n + " equal parts of given string are ");  
