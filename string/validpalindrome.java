@@ -14,7 +14,7 @@ public class validpalindrome {
                 return false;
             else
                  return true;
-            } 
+            
         
         return false;
         
