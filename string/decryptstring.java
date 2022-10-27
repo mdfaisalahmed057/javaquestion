@@ -8,7 +8,9 @@ public class decryptstring{
         public static String freqAlphabets(String str) {
     HashMap<String, Character> map = new HashMap<>();
     int k = 1;
+    
     //if value comes less then i then noraml count else add the # value in it
+
     for (char ch = 'a'; ch <= 'z'; ch++) {
         if (ch < 'j')
             map.put(String.valueOf(k++), ch);// to convert the value of int to string

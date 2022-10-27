@@ -22,9 +22,7 @@ public class minsumofindex{
         for (int i = 0; i < list2.length; i++) {
             if (map.containsKey(list2[i])) { // Note: time complexity for map.containsKey() is assumed to be O(1) here
                 int sum = map.get(list2[i])+i ;
-                System.out.println(list2[i]);
-                 System.out.println(sum);
-    
+     
                 if (sum < minIndexSum) {
                     minIndexSum = sum;
                     res.clear();

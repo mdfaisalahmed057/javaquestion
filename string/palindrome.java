@@ -1,5 +1,4 @@
-// package string;
-
+ 
 // public  class palindrome{
 // // Use this editor to write, compile and run your Java code online
 
