@@ -16,7 +16,7 @@ public class reversewordstr{
                 
             }
         }
-                    return new String(ch);
+            return new String(ch);
 
     }
     static void reverse(char ch[],int start,int end){
