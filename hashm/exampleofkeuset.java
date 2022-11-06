@@ -15,9 +15,9 @@ public class exampleofkeuset {
 		hash_map.put(25, "Welcomes");
 		hash_map.put(30, "You");
 
-		// Displaying the HashMap
+		// Displaying the HashMap 
 		System.out.println("Initial Mappings are: " + hash_map);
-
+System.out.println(hash_map.containsKey(10));
 		// Using keySet() to get the set view of keys
 		System.out.println("The set is: " + hash_map.keySet());
 	}

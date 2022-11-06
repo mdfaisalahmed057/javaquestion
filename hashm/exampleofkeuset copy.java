@@ -1,7 +1,7 @@
   
 import java.util.*;
 
-public class exampleofkeuset {
+public class exampleofkeuset{
 	public static void main(String[] args)
 	{
 
@@ -14,6 +14,7 @@ public class exampleofkeuset {
 		hash_map.put(20, "Geeks");
 		hash_map.put(25, "Welcomes");
 		hash_map.put(30, "You");
+		hash_map.containsKey(10);
 
 		// Displaying the HashMap
 		System.out.println("Initial Mappings are: " + hash_map);
