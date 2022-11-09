@@ -22,3 +22,4 @@ public static int lengthOfLastWord(String s) {
     }
     return result;
 }
+}
