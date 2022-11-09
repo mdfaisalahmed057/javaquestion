@@ -77,7 +77,7 @@ import java.util.*;
 // }
 public class romanintger{
 public static void main(String[] args) {
-    String s="III";
+    String s="XIV";
     System.out.println(romanToInt(s));
     
 }
@@ -87,8 +87,7 @@ public static int romanToInt(String s) {
     map.put('I', 1);
     map.put('V', 5);
     map.put('X', 10);
-    map.put('L', 50);
-    map.put('C', 100);
+      map.put('C', 100);
     map.put('D', 500);
     map.put('M', 1000);
     int last = 1001, ans = 0;
@@ -96,12 +95,13 @@ public static int romanToInt(String s) {
     for(char ch : s.toCharArray()){
  
         int x = map.get(ch);
+          
          if(last < x)
-            ans += (x - last * 2);
-        else
-            ans += x;
+             ans += (x - last * 2);
+             else
+             ans += x;
         last = x;
-    }
+     }
     return ans;
 }
 }
