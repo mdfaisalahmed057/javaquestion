@@ -20,8 +20,7 @@ public class  DecodeString {
                 counts.push(count);
             }else if(s.charAt(indx)=='['){
                 result.push(res); 
-                System.out.println(result);
-                res="";
+                 res="";
                 
                 indx+=1;
             }else if(s.charAt(indx)==']'){
