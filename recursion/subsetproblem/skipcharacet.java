@@ -1,22 +1,47 @@
  
 public class skipcharacet{
 public static void main(String[] args) {
-    String s="bccad";
-    String se="";
-    skip(se, s);
+
+    String original="bccaapplead";
+    System.out.println(skipstring(original)); 
+     
 
 }   
-public static void skip(String p,String up) {
-    if(up.isEmpty()){
-        System.out.println(p);
+public static void skip(String nonoriginal,String original) {// p=bccad // up=""
+    if(original.isEmpty()){
+        System.out.println(nonoriginal);
         return;
     }
-    char ch=up.charAt(0);
+    char ch=original.charAt(0);
     if(ch=='a'){//bcc/ad
-        skip(p, up.substring(1));
+        skip(nonoriginal, original.substring(1));//
     }else{
-        skip(p+ch, up.substring(1));
+        skip(nonoriginal+ch, original.substring(1));
+        
 
     }
-}                             
+} 
+// new method without using another extra parameter
+public static String skipnewmethod(String original) {// p=bccad // up=""
+    if(original.isEmpty()){
+         return " ";
+    }
+    char ch=original.charAt(0);
+    if(ch=='a'){//bcc/ad
+       return skipnewmethod( original.substring(1));//
+    }else{
+       return ch+skipnewmethod( original.substring(1));
+    }
+}    
+
+public static String skipstring(String original) {// p=bccad // up=""
+    if(original.isEmpty()){
+         return " ";
+    }
+    if(original.startsWith("apple")){
+        return skipstring( original.substring(5));//
+    }else{
+       return  original.charAt(0)+skipstring( original.substring(1));
+    }
+}    
 }
