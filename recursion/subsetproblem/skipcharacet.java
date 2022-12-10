@@ -1,9 +1,10 @@
  
 public class skipcharacet{
 public static void main(String[] args) {
-
-    String original="bccaapplead";
-    System.out.println(skipstring(original)); 
+String original="abc";
+String nonoriginal="";
+    // String original="bccaapplead";
+     skip(original, nonoriginal); 
      
 
 }   
