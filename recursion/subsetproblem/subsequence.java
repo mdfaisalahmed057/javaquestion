@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.lang.reflect.Array;
 import java.util.*;
 public class subsequence {
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class subsequence {
         // System.out.println(iterate(p, up));
 
         int arr[]={1,2,3,3};
-        List<List<Integer>> ans=duplicate(arr);
+        List<List<Integer>> ans=withoutduplicate(arr);
         for(List<Integer> list:ans){
             System.out.println(list);
  
@@ -58,15 +59,18 @@ public class subsequence {
         }
     }
 
-    public static List<List<Integer>> name(int[] arr) {
+    // without duplicate values
+
+    public static List<List<Integer>> withoutduplicate(int[] arr) {
         List<List<Integer>> outer = new ArrayList<>();
         outer.add(new ArrayList<>());
         for (int num : arr) {
             int n = outer.size();
             for (int i = 0; i < n; i++) {
-                List<Integer> internal = new ArrayList<>(outer.get(i));
+                 List<Integer> internal = new ArrayList<>(outer.get(i));
                  internal.add(num);
                 outer.add(internal);
+                System.out.println("  internal" +" "+internal);
 
             }
         }
@@ -76,20 +80,22 @@ public class subsequence {
 // duplicate subarray questions
 
 public static List<List<Integer>> duplicate(int arr[]) {
+    Arrays.sort(arr);
     List<List<Integer>> outer = new ArrayList<>();
     outer.add(new ArrayList<>());
-    int start = 0;
+     int start = 0;
     int end = 0;
     for (int i = 0; i < arr.length; i++) {
+        start=0;
          // if current and previous element is same then
-        if (i > 0 && arr[i] == arr[i - 1]) {
+            if (i > 0 && arr[i] == arr[i-1]) {
             start = end + 1;
         }
         end = outer.size() - 1;
         int n = outer.size();
         for (int j = start; j < n; j++) {
             List<Integer> internal = new ArrayList<>(outer.get(j));
-            internal.add(arr[j]);
+            internal.add(arr[i]);
             outer.add(internal);
         }
     }
