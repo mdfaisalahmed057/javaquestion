@@ -4,11 +4,11 @@ public class permutation {
     public static void main(String[] args) {
         String p="";
         String up="abc";
-        // name(p, up);
+        name(p, up);
 
         // ArrayList<String>sol=list("", "abc");
         // System.out.println(sol);
-      example(p, up);
+    //   example(p, up);
     }
 
 
@@ -29,6 +29,7 @@ public class permutation {
         }
 
     }
+    // permutaton using count
     public static int counts(String p,String up) {
         int count=0;
 
@@ -44,6 +45,7 @@ public class permutation {
         return count;
 
     }
+    // permutation using list
     public static ArrayList<String> list(String p,String up) {
 
         if(up.isEmpty()){
@@ -63,6 +65,8 @@ public class permutation {
 return ls;
 
     }
+
+    // same example as above
     public static void example(String p,String up) {
         if(up.isEmpty()){
             System.out.println(p);
@@ -71,7 +75,10 @@ return ls;
         char ch=up.charAt(0);
         for(int i=0;i<=p.length();i++){
             String f=p.substring(0, i);//0,0
+            System.out.println("value of f"+" "+f);
+
             String s=p.substring(i,p.length());//o,2
+            System.out.println("value of s " +" " +s);
             example(f+ch+s,up.substring(1));
         }   
     }
