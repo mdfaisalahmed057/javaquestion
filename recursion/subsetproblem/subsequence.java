@@ -3,29 +3,30 @@ import java.lang.reflect.Array;
 import java.util.*;
 public class subsequence {
     public static void main(String[] args) {
-        // String p="";
-        // String up="abc";
-        // System.out.println(iterate(p, up));
-
+        String p="";
+        String up="abc";
+        // name(p, up); 
+        // System.out.println(array(p, up)); 
         int arr[]={1,2,3,3};
         List<List<Integer>> ans=withoutduplicate(arr);
         for(List<Integer> list:ans){
             System.out.println(list);
- 
-        }
-       }
+         }
+          }
+       
 
       //using only recursion
-    // public static void name(String p,String up) {
-    //     if(up.isEmpty()){
-    //         System.out.println(p);
-    //         return;
-    //     }
-    //     char ch=up.charAt(0);
-    //          name(p+ch, up.substring(1));
+    public static void name(String p,String up) {
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+        char ch=up.charAt(0);
+        name(p, up.substring(1));   //take it or ignore it   
+        name(p+ch, up.substring(1));
 
-    //          name(p, up.substring(1));      
-    // }
+
+    }
 
       //using only recursion and arraylist
 
@@ -36,14 +37,12 @@ public class subsequence {
             return ans;
           }
         char ch=up.charAt(0);
-            ArrayList<String> left= array(p+ch, up.substring(1) );
-           ArrayList<String> right= array(p, up.substring(1));
-           ArrayList<String> ascii= array(p+(ch+0), up.substring(1));
- 
- 
-           left.addAll(right);
-           ascii.addAll(left);
-          return ascii;  
+        ArrayList<String> left= array(p+ch, up.substring(1));
+        ArrayList<String> right= array(p, up.substring(1));
+        ArrayList<String> ascii= array(p+(ch+0), up.substring(1));
+        left.addAll(right);
+        ascii.addAll(left);
+        return ascii;  
     }
 
      public static void iterate(String p,String up) {
@@ -51,8 +50,7 @@ public class subsequence {
             System.out.println(p);
             return;
         }
-        char ch=up.charAt(0);
-        char[] chs=up.toCharArray();
+         char[] chs=up.toCharArray();
         for(int i=0;i<chs.length;i++){
             iterate(p+chs[i], up.substring(i+1));
             iterate(p, up.substring(i+1));
@@ -70,7 +68,6 @@ public class subsequence {
                  List<Integer> internal = new ArrayList<>(outer.get(i));
                  internal.add(num);
                 outer.add(internal);
-                System.out.println("  internal" +" "+internal);
 
             }
         }
