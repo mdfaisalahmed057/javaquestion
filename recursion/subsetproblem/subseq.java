@@ -10,9 +10,10 @@ public class subseq {
             return;
         }
         char ch=up.charAt(0);
+        name(p+ch, up.substring(1));//a,bc//ab//c//abc
 
-             name(p, up.substring(1));      
-             name(p+ch, up.substring(1));
+
+             name(p, up.substring(1));//"" ,bc//""//c  
 
     }
     
