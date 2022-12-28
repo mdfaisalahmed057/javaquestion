@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class permutation {
     public static void main(String[] args) {
@@ -72,6 +73,7 @@ return ls;
             System.out.println(p);
             return;
         }
+      
         char ch=up.charAt(0);
         for(int i=0;i<=p.length();i++){
             String f=p.substring(0, i);//0,0
