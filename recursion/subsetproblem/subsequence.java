@@ -8,7 +8,7 @@ public class subsequence {
         // name(p, up); 
         // System.out.println(array(p, up)); 
         int arr[]={1,2,3,3};
-        List<List<Integer>> ans=withoutduplicate(arr);
+        List<List<Integer>> ans=duplicate(arr);
         for(List<Integer> list:ans){
             System.out.println(list);
          }

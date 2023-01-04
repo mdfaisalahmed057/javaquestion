@@ -12,8 +12,9 @@ public class usingitrative {
         }
          char[] chs=up.toCharArray();
         for(int i=0;i<chs.length;i++){
-            iterate(p+chs[i], up.substring(i+1));
             iterate(p, up.substring(i+1));
+            iterate(p+chs[i], up.substring(i+1));
+
         }
     }
 }
