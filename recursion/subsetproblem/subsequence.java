@@ -5,28 +5,28 @@ public class subsequence {
     public static void main(String[] args) {
         String p="";
         String up="abc";
-        // name(p, up); 
-        // System.out.println(array(p, up)); 
-        int arr[]={1,2,3,3};
-        List<List<Integer>> ans=duplicate(arr);
-        for(List<Integer> list:ans){
-            System.out.println(list);
+        name(p, up); 
+        System.out.println(array(p, up)); 
+        // int arr[]={1,2,3,3};
+        // List<List<Integer>> ans=duplicate(arr);
+        // for(List<Integer> list:ans){
+        //     System.out.println(list);
          }
-          }
+          
        
 
       //using only recursion
-    public static void name(String p,String up) {
-        if(up.isEmpty()){
-            System.out.println(p);
-            return;
-        }
-        char ch=up.charAt(0);
-        name(p, up.substring(1));   //take it or ignore it   
-        name(p+ch, up.substring(1));
+    // public static void name(String p,String up) {
+    //     if(up.isEmpty()){
+    //         System.out.println(p);
+    //         return;
+    //     }
+    //     char ch=up.charAt(0);
+    //     name(p, up.substring(1));   //take it or ignore it   
+    //     name(p+ch, up.substring(1));
 
 
-    }
+    // }
 
       //using only recursion and arraylist
 

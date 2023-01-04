@@ -5,7 +5,7 @@ public class maxmin {
         int arr[]={1,2,4,5,0};
         int n=arr.length;
 String s="faisal";
-s.toUpperCase()
+s.toUpperCase();
         System.out.println(max(arr,n));
         
     }
