@@ -22,6 +22,7 @@ boolean [][] maze=  {
         return left+right;
         
     }
+    
     // to print the direction 
  
     static ArrayList<String>  path(String p,int r,int c){
@@ -41,6 +42,7 @@ boolean [][] maze=  {
         }
 return list;
     }
+
     // diagonal 
     static ArrayList<String>  diag(String p,int r,int c){
         ArrayList<String> list=new ArrayList<>();
