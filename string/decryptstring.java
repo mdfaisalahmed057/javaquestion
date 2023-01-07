@@ -5,7 +5,7 @@ public class decryptstring{
         String s="10#11#12";
         System.out.println(freqAlphabets(s));
     } 
-        public static String freqAlphabets(String str) {
+     public static String freqAlphabets(String str) {
     HashMap<String, Character> map = new HashMap<>();
     int k = 1;
     
