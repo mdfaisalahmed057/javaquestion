@@ -5,7 +5,7 @@ public class subsequence {
     public static void main(String[] args) {
         String p="";
         String up="abc";
-        name(p, up); 
+        // name(p, up); 
         System.out.println(array(p, up)); 
         // int arr[]={1,2,3,3};
         // List<List<Integer>> ans=duplicate(arr);
@@ -26,7 +26,7 @@ public class subsequence {
     //     name(p+ch, up.substring(1));
 
 
-    // }
+    
 
       //using only recursion and arraylist
 
