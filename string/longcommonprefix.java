@@ -3,43 +3,39 @@ import java.util.Arrays;
 public class longcommonprefix {
     public static void main(String[] args) {
         String strs[]={"flower","flowr","floe"};
-        System.out.println(longestCommonPrefixe(strs));
+        System.out.println(longestCommonPrefix(strs));
         
        }
-       public static String longestCommonPrefixe(String[] strs) {
-        String prefix = strs[0];
-        for(int index=1;index<strs.length;index++){
-            while(strs[index].indexOf(prefix) != 0){
-                prefix=prefix.substring(index,prefix.length()-1);
-            }
-        }
-        return prefix;
-    }
-}
-    //    public static String longestCommonPrefix(String[] strs) {
-    //     String r="";
-    //     int n=strs.length;
-    //     Arrays.sort(strs);//Sorted first
-    //     System.out.println(Arrays.toString(strs));
-    //     String s=strs[0];//smallest no of char
-    //     String h=strs[n-1];//highest no of char
+    //    public static String longestCommonPrefixe(String[] strs) {
+    //     String prefix = strs[0];
+    //     for(int index=1;index<strs.length;index++){
+    //         while(strs[index].indexOf(prefix) != 0){
+    //             prefix=prefix.substring(index,prefix.length()-1);
+    //         }
+    //     }
+    //     return prefix;
+    // }
+
+       public static String longestCommonPrefix(String[] strs) {
+        String r="";
+        int n=strs.length;
+        Arrays.sort(strs);//Sorted first
+        System.out.println(Arrays.toString(strs));
+        String s=strs[0];//smallest no of char
+        String h=strs[n-1];//highest no of char
        
 
-    //     for(int i =0;i<s.length();i++)//taken smallest length so that run time will be less
-    //     {
-    //         System.out.println(s);
-    //         if(s.charAt(i)!=h.charAt(i))
-    //          break;
-    //         r=r+s.charAt(i);  
-    //     }
-    //     return r;  
+        for(int i =0;i<s.length();i++)//taken smallest length so that run time will be less
+        {
+            System.out.println(s);
+            if(s.charAt(i)!=h.charAt(i))
+             break;
+            r=r+s.charAt(i);  
+        }
+        return r;  
     
-    //    }
-          
-       
-        
-    
-    
+       }
+    }    
    
 
     // /*
