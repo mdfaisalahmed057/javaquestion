@@ -27,7 +27,7 @@ public class anangram {
         if (isanagram) {
             System.out.println("yes");
         } else {
-            System.out.println("no");
+            System.out.println("do");
         }
     }
 
