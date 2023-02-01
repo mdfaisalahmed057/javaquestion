@@ -21,8 +21,8 @@ public class bubblesort {
                 arr[i+1] = temp;
                   count = count+1;
             }
+             if(count==0)
 
-            if(count==0)
             return;
             bubble(arr, n-1);
            
