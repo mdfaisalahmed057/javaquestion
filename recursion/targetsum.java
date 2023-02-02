@@ -22,7 +22,7 @@ public class targetsum {
         
         int positive=find(nums,target,sum+nums[index],index+1,count);
        
-         int negative=find(nums,target,sum-nums[index],index+1,count);
+        int negative=find(nums,target,sum-nums[index],index+1,count);
            return positive+negative;
     }
 }
