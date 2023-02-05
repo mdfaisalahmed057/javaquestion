@@ -12,7 +12,7 @@ public class finalvalue{
         }else{
             x++;
         }
-        System.out.println(s.charAt(1));
+        // System.out.println(s.charAt(1));
 
        }
  

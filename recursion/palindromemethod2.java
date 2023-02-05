@@ -1,7 +1,7 @@
 public class palindromemethod2 {
     public static void main(String[] args) {
         System.out.println(
-            palindrome(123)
+            palindrome( 121)
         );
 
     }
