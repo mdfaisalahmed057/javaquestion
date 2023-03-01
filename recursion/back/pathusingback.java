@@ -34,7 +34,7 @@ back("", maze, 0, 0);
             back(p + 'U', maze, r-1, c );
         }               
         //this line is where the function will be over
-        // so before the function gets removed also remove the chnages 
+        // so before the function gets removed also remove the changes 
         //that were made by that function
         maze[r][c]=true;
     }

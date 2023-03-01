@@ -8,7 +8,7 @@ public class printthesteps {
                 { true, true, true }
 
         };
-        int[][] path = new int[maze.length ][maze[0].length ];
+        int [][] path = new int[maze.length ][maze[0].length ];
         stepspath("", maze, 0, 0, path, 1);
     }
 
@@ -44,3 +44,11 @@ public class printthesteps {
     }
 
 }
+
+
+
+// public class printthesteps{
+//     public static void main(String[] args) {
+        
+//     }
+//  }
