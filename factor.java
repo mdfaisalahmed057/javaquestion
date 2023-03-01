@@ -10,6 +10,7 @@ public class factor{
                 System.out.println(i);
             }   
         }
+        sc.close();
      
     }
 }

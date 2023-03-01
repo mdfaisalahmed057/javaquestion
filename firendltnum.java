@@ -11,6 +11,7 @@
         {
 System.out.println("fried");
         }
+        
        
      }
     static int factor(int num){
