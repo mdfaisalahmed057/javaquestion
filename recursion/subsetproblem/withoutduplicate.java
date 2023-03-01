@@ -16,7 +16,7 @@ public class withoutduplicate {
             outer.add(new ArrayList<>());// it will increase as elements added
              for (int num : arr) {
                 int n = outer.size();//sisze of the empty array 
-                for (int i = 0; i < n; i++) {
+                 for (int i = 0; i < n; i++) {
                      List<Integer> internal = new ArrayList<>(outer.get(i));// to create a copy for adding the element later //[] [1],[2],[1,2]
                      internal.add(num); //
                     outer.add(internal);
@@ -25,5 +25,4 @@ public class withoutduplicate {
             }
             return outer;
         } 
-    
 }

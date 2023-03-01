@@ -1,33 +1,26 @@
 import java.util.ArrayList;
-import java.lang.reflect.Array;
-import java.util.*;
-public class subsequence {
+ import java.util.*;
+public class mainsubsequence {
     public static void main(String[] args) {
-        String p="";
-        String up="abc";
-        // name(p, up); 
-        System.out.println(array(p, up)); 
-        // int arr[]={1,2,3,3};
-        // List<List<Integer>> ans=duplicate(arr);
-        // for(List<Integer> list:ans){
-        //     System.out.println(list);
-         }
-          
-       
+        // String p="";
+        // String up="abc";
+         int arr[]={1,2,3,3};
+        List<List<Integer>> ans=duplicate(arr);
+        for(List<Integer> list:ans){
+            System.out.println(list);
+           }
+        }
 
-      //using only recursion
-    // public static void name(String p,String up) {
-    //     if(up.isEmpty()){
-    //         System.out.println(p);
-    //         return;
-    //     }
-    //     char ch=up.charAt(0);
-    //     name(p, up.substring(1));   //take it or ignore it   
-    //     name(p+ch, up.substring(1));
-
-
-    
-
+    //   using only recursion
+    public static void name(String p,String up) {
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+        char ch=up.charAt(0);
+        name(p, up.substring(1));   //take it or ignore it   
+        name(p+ch, up.substring(1));
+    }
       //using only recursion and arraylist
 
     public static  ArrayList<String> array(String p,String up) {
@@ -44,6 +37,7 @@ public class subsequence {
         ascii.addAll(left);
         return ascii;  
     }
+// using iteration 
 
      public static void iterate(String p,String up) {
         if(up.length()==0){
@@ -81,7 +75,7 @@ public static List<List<Integer>> duplicate(int arr[]) {
     List<List<Integer>> outer = new ArrayList<>();
     outer.add(new ArrayList<>());
      int start = 0;
-    int end = 0;
+     int end = 0;
     for (int i = 0; i < arr.length; i++) {
         start=0;
          // if current and previous element is same then
