@@ -1,10 +1,10 @@
 public class bitodec{
     public static void main(String[] args) {
         int num=101010;
-        bitodec(num);
+        bitodeci(num);
         
     }
-    static void bitodec( int num){
+    static void bitodeci( int num){
         double sum=0;
         double p=0;
         while(num>0){
