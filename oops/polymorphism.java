@@ -20,8 +20,6 @@
 //         ob1.show("faisal");
 //         ob1.show(12,"ahmed");
 //         ob1.show(12);
-
-
 //     }
      
 // }
