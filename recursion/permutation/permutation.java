@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import java.util.List;
-
+ 
 public class permutation {
     public static void main(String[] args) {
         String p = "";
@@ -20,16 +19,16 @@ public class permutation {
         }
 
         char ch = up.charAt(0);// " "
+        System.out.println("length of p"+p.length());
 
         for (int i = 0; i <= p.length(); i++) {//
-            String f = p.substring(0, i);// (0,0);
-            String s = p.substring(i, p.length());// 0,
-            name(f + ch + s, up.substring(1));
+            String f = p.substring(0, i);// 0,0//
+            String s = p.substring(i, p.length());// 0,0//
+            name(f + ch + s, up.substring(1));//0+a+0//
 
         }
 
     }
-
     // permutaton using count
     public static int counts(String p, String up) {
         int count = 0;

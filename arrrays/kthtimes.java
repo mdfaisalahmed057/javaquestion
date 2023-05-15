@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class kthtimes {
     public static void main(String[] args) {
-        int arr[] = { 1, 7, 4, 3, 4, 8, 7 };
+        int arr[] = { 1, 7, 4,4, 3, 4, 8, 7 };
         kth(arr);
     }
 

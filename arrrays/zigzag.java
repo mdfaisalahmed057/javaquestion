@@ -28,8 +28,7 @@
 // }
  
 
-package arrrays;
-
+ 
 import java.util.Arrays;
 
 public class zigzag{
