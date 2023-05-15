@@ -1,6 +1,4 @@
-// Java program to find the
-// first uppercase letter.
-import java.io.*;
+
 
 public class uppercase {
 	

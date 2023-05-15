@@ -4,12 +4,14 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
       //  abundants(num,num2);
-      int n=sc.nextInt();
-      int m=sc.nextInt();
+      int n=5;
+      int m=4;
 
     for(int i=n;i<=m;i++){
         abundants(i);
+
     }
+    sc.close();
     }
 
     static void abundants(int num){

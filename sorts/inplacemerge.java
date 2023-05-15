@@ -15,8 +15,6 @@ public class inplacemerge {
 
          merge(arr, mid, e);
          mergeinplace(arr, s, mid, e);
-
-
     }
 
     public static void mergeinplace(int arr[], int s, int m, int e) {
@@ -35,7 +33,7 @@ public class inplacemerge {
             }
             k++;
         }
-        //it mat be possible that one of the arraus is not complete
+        //it ma be possible that one of the arrays is not complete
         while(i<m){
             mix[k]=arr[i];
             i++;

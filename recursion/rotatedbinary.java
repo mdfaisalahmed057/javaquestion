@@ -21,8 +21,6 @@ public class rotatedbinary {
 
             }else{
                 return check(arr,target,m+1,e);
-
-
             }
         }
 
@@ -31,8 +29,6 @@ public class rotatedbinary {
 
         }
             return check(arr,target,s,m-1);
-
-        
     }
     
 }

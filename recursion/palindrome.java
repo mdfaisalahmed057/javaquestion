@@ -10,8 +10,8 @@ public class palindrome{
               rev=n%10+rev*10;//on 0th position 1 will come
             n=n/10;
         }
-        return rev;
-        
+       return rev;
+         
      }
    
 }

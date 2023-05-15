@@ -1,14 +1,14 @@
 public class subseq {
     public static void main(String[] args) {
         // String p="";
-        // String up="abcab";
+        // String up="abc";
         // name(p, up);
         char[] s1 = "faisal".toCharArray();
         char[] s2 = new char[s1.length];
         int index = 0;
-        copy(s1, s2, index);
-        System.out.println(String.valueOf(s2));
-    }
+     copy(s1, s2, index);  
+     System.out.println(s2);
+     }
 
     public static void name(String p, String up) {
         if (up.isEmpty()) {
