@@ -21,7 +21,7 @@
 //         ob1.show(12,"ahmed");
 //         ob1.show(12);
 //     }
-     
+
 // }
 
 
@@ -43,13 +43,20 @@ class Shape {
         System.out.println((3.14)*r*r);
     }  
  }
+ class faisal extends Shape{
+    public void bio(){
+        System.out.println("still searching for ;");
+    }
+ }
  
  public class polymorphism {
     public static void main(String[] args) {
-        Shape ob1=new Shape();        
-        ob1.area();
-        Triangle ob2=new Triangle();
-        ob2.area(12,12);
+        // Shape ob1=new Shape();        
+        // ob1.area();
+        // Circle ob2=new Circle();
+        // ob2.area(12);
+        faisal ob3=new faisal();
+        ob3.bio();;
     }
      
 }
