@@ -52,3 +52,19 @@ public class automorphic{
 // System.out.println(isAutomorphic(13) ? "Automorphic" : "Not Automorphic");   
 // }   
 // }  
+
+// public class automorphic{
+//     public static void main(String[] args) {
+//         int a=25;
+//         int ans=a*a;
+//         int rem=ans%100;
+//         if(rem==a){
+//             System.out.println("number is automorphic");
+//         }else{
+//                         System.out.println(" not number is automorphic");
+
+//         }
+//      }
+// }
+
+

@@ -6,7 +6,8 @@ public class perfectnum2{
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        // int n = in.nextInt();
+        int n=28;
         int[] facts = factors(n);
         System.out.println(Arrays.toString(facts));
         int sum = sum(facts);

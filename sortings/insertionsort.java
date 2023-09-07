@@ -23,7 +23,31 @@ public class insertionsort {
     int temp=arr[first];
     arr[first]=arr[second];
     arr[second]=temp;
-
    }
     
 }
+
+// class faisal{
+//     public static void main(String[] args) {
+//         System.out.println("hello");
+//     }
+// }
+
+ 
+
+
+public class insertionsort{
+    public static void main(String[] args) {
+        int num=23356;
+        int k=4;
+ int rem=0;
+ while(k>=1){
+     rem=num%10;
+ num=num/10;
+ k--;
+     
+  }
+  System.out.println(rem);
+ }
+}
+

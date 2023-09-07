@@ -1,7 +1,7 @@
 import java.util.*;
 public class withoutduplicate {
     public static void main(String[] args) {
-        int arr[]={1,2,3,4};
+        int arr[]={1,2,3};
         List<List<Integer>>ans=withoutduplicates(arr);
         for(List<Integer>  list:ans){
             System.out.println(list);
@@ -17,8 +17,9 @@ public class withoutduplicate {
              for (int num : arr) {
                 int n = outer.size();//sisze of the empty array 
                  for (int i = 0; i < n; i++) {
+                    System.out.println("this is get"+outer.get(i));
                      List<Integer> internal = new ArrayList<>(outer.get(i));// to create a copy for adding the element later //[] [1],[2],[1,2]
-                     internal.add(num); //
+                      internal.add(num); //
                     outer.add(internal);
      
                 }

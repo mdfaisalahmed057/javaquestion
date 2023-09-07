@@ -10,6 +10,7 @@ public class anangram {
         String b = "baa";
         int al[] = new int[256];
         int bl[] = new int[256];
+        
         for (char c : a.toCharArray()) {
             int index = (int) c;
             al[index]++;

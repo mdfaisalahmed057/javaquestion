@@ -44,6 +44,7 @@ public class absent {
     languages.putIfAbsent(5, "JavaScript");
 
     // key already present in HashMap
+    System.out.println("key already present in HashMap");
     languages.putIfAbsent(6, "c");
     System.out.println("Updated Languages: " + languages);
   }

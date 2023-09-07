@@ -25,8 +25,7 @@
 //     }
   
 // }
-
-package arrrays;
+ 
 
 import java.util.Arrays;
 
@@ -39,7 +38,7 @@ public class kthsmall{
     }
     static int kthsmalla(int arr[],int k){
         Arrays.sort(arr);
-        int ans= arr[k-1];
+         int ans= arr[k-1];
         return ans;
      }
 

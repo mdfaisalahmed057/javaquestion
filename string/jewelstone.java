@@ -8,9 +8,9 @@ public class  jewelstone{
     int count=0;
 
     for(int i=0;i<jew.length();i++){
-        char c=jew.charAt(i);
+         char c=jew.charAt(i);//a,A
         for(int j=0;j<sto.length();j++){
-            char m=sto.charAt(j);
+            char m=sto.charAt(j);//a,A
             if(c==m){
                 count
                 ++;

@@ -87,15 +87,14 @@ public static int romanToInt(String s) {
     map.put('I', 1);
     map.put('V', 5);
     map.put('X', 10);
-      map.put('C', 100);
+    map.put('C', 100);
     map.put('D', 500);
     map.put('M', 1000);
     int last = 1001, ans = 0;
-
+System.out.println("Map Value"+map);
     for(char ch : s.toCharArray()){
- 
         int x = map.get(ch);
-          
+           System.out.println("x value "+x);
          if(last < x)
              ans += (x - last * 2);
              else

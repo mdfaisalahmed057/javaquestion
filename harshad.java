@@ -14,9 +14,10 @@ public class harshad {
             rev=rev+res;//6
             num=num/10;
         }
+        System.out.println(rev);
         if(n%rev==0){
+                        System.out.println("number "+num);
             return true;
-            // System.out.println("number "+num);
         }else{
             // System.out.println("number not"+num);
             return false;

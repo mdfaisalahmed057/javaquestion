@@ -7,7 +7,7 @@
         int rem = temp % 10;// 1 remainder will get 
         reverse = reverse * 10 + rem;
         temp /= 10; // then this will take the value of the remaining number eg 123
-    }
+    } 
 
 
 if(num==reverse){

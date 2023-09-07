@@ -2,7 +2,7 @@
 // public  class palindrome{
 // // Use this editor to write, compile and run your Java code online
 
-// class HelloWorld {
+// class palindrome {
 //     public static void main(String[] args) {
         
 //          for(int i=0;i< 26;i++){
@@ -11,6 +11,7 @@
 //          }
 
 //       }
+//     }
 //      static boolean ispalindrome(String str){
 //          for(int i=0;i<str.length();i++){
 //             int start=str.charAt(i);

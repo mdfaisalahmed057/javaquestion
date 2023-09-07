@@ -3,10 +3,10 @@ package arrrays;
 public class minmax {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5};
-        minmax(arr);
+        minmaxi(arr);
         min(arr);
     }
-    static void minmax(int arr[]){
+    static void minmaxi(int arr[]){
         int max=arr[0];
          for(int i=0;i<arr.length-1;i++){
             if(max<arr[i+1]){

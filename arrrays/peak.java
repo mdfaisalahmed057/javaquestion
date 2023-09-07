@@ -1,5 +1,4 @@
-package arrrays;
-public class peak
+ public class peak
 {
 	// Function to find the peak element
 	// arr[]: input array

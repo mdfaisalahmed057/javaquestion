@@ -43,6 +43,7 @@ import java.util.Arrays;
     //             } 
     //         }
     //     }
+    //     System.out.println(num1.toString());
    
     //     }
     // }
@@ -53,6 +54,7 @@ public class merge {
     public static void main(String[] args) {
         int[] num1 = {1, 2, 3, 0, 0, 0};
         int[] num2 = {2, 5, 6};
+        
         
         int m = 3; // Number of non-zero elements in num1
         

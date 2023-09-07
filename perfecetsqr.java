@@ -1,13 +1,11 @@
 import java.util.Scanner;
 public class perfecetsqr{
     public static void main(String[] args) {
-      int n=2;
+      int n=25;
         double ans=Math.sqrt(n);
-        System.out.println(ans);
-        double res;
+         double res;
         res=(ans-Math.floor(ans));
-        System.out.println(res);
-        if(res==n){
+         if(res==0){
             System.out.println("perfct sqr");
         }else{
             System.out.println("not a pnum");

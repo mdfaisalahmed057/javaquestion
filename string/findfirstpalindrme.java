@@ -3,19 +3,20 @@ public class findfirstpalindrme {
        String words[] = {"abc","car","ada","racecar","cool"};
        System.out.println( firstPalindrome(words));
      }
-    public static String firstPalindrome(String[] words) {
- return palin(words);
-
-    }
-    static String palin(String str[]){
-        int i=0;
-        int n=str.length;
-        while(n>0){
-            if(str[i]==str[n-1]){
-                i++;
-             }
-
+    public static boolean firstPalindrome(String[] words) {
+       for(int i=0;i<words.length;i++){
+        String str=words[i];
+        System.out.println("this is under for loop"+" "+str);
+          StringBuilder sb=new StringBuilder();
+        sb.append(str);
+        if(str==sb.reverse().toString()){
+            System.out.println("this is palindtome");
+         }else{
+            System.out.println("not a palindrome");
+         }
         }
-        return str[i];
+       return false;
+          
     }
+     
 }

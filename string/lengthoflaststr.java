@@ -7,7 +7,7 @@ public class lengthoflaststr {
     }
     // public static  int lengthOfLastWord(String s) {
     //     String ans[]=s.split(" ");
-       
+    //      System.out.println(ans[ans.length-1]);
     //      return ans[ans.length-1].length();
          
     // }

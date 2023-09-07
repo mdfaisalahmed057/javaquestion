@@ -1,5 +1,4 @@
-package arrrays;
-import java.util.HashSet;
+ import java.util.HashSet;
 import java.util.Iterator;
 public class hashex {
     public static void main(String[] args) {

@@ -33,7 +33,7 @@ public class inplacemerge {
             }
             k++;
         }
-        //it ma be possible that one of the arrays is not complete
+        //it may be possible that one of the arrays is not complete
         while(i<m){
             mix[k]=arr[i];
             i++;

@@ -1,5 +1,6 @@
- 
 import java.util.Arrays;
+
+// import java.util.Arrays;
 
 public class cyclicsort {
     public static void main(String[] args) {
@@ -15,8 +16,6 @@ public class cyclicsort {
                 swap(arr, i, correct);
             }
         }
-
-
     }
 
     static void swap(int[] arr, int first, int second) {
@@ -56,3 +55,28 @@ public class cyclicsort {
 
 
 // }
+
+public class cyclicsort{
+    public static void main(String[] args) {
+        int arr[]={2,5,2,1,4};
+cycle(arr);
+System.out.println(Arrays.toString(arr));
+    }
+    static  void cycle(int arr[]){
+        int i=0;
+        int n=arr.length-1;
+        while(i<n){
+            int correct=arr[i]-1;
+            if(arr[i]!=arr[correct]){
+        swap(arr, i, correct);
+            }else{
+                i++;
+            }
+        }
+    }
+    static void swap(int arr[],int s,int e){
+        int temp=arr[s];
+        arr[s]=arr[e];
+        arr[e]=temp;
+    }
+}

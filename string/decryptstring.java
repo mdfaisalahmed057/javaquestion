@@ -20,7 +20,7 @@ public class decryptstring{
     
     StringBuilder sb = new StringBuilder();
     int i = str.length() - 1;
-    while (i >= 0) {
+    while (i >= 0) { 
         if (str.charAt(i) == '#') {
             sb.append(map.get(str.substring(i - 2, i+1)));
             

@@ -1,5 +1,4 @@
-package arrrays;
-
+ 
 import java.util.Arrays;
 
 public class smallestsubsetgreatersum {
@@ -9,7 +8,7 @@ public class smallestsubsetgreatersum {
     }
 
     static int ssgs(int arr[]) {
-        Arrays.sort(arr);
+        Arrays.sort(arr);//2,3,7,17
         int n = arr.length - 1;
         int sum = 0;
         int count = 0;

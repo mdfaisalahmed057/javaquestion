@@ -10,7 +10,6 @@ System.out.println(judgeCircle(moves));
         char [] Characters=moves.toCharArray();
         for(int i=0;i<moves.length();i++){
              map.put(Characters[i], map.getOrDefault(Characters[i], 0) + 1);
-
          }
          System.out.println(map);
          if(map.get('R').intValue() == map.get('L').intValue()  && map.get('R').intValue() == map.get('L').intValue()) {
@@ -18,13 +17,8 @@ System.out.println(judgeCircle(moves));
   true;
 
       } 
-    
-        
-
         return false;
-        
     }
-    
 }
 
 

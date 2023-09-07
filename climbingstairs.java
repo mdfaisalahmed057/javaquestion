@@ -19,7 +19,7 @@ public class climbingstairs {
         int value=name(n-1)+name(n-2);
 
          map.put(n,value);
-        System.out.println("mao"+map);
+        System.out.println("map"+map);
          return value;
         
     }

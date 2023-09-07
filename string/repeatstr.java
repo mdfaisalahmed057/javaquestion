@@ -14,7 +14,7 @@ public class repeatstr {
             sb.append(A);
              count++;
          }
-        
+         
         if(sb.toString().contains(B)) return count;
         if(sb.append(A).toString().contains(B)) return ++count;
         return -1;

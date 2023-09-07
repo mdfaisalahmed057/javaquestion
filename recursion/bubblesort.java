@@ -26,10 +26,22 @@ public class bubblesort {
             return;
             bubble(arr, n-1);
            
-
         }
-
-        
-    
-    
 }
+
+// class bubblesort
+// public class bubblesort extends Thread {
+//     static int amount = 0;
+
+//     public static void main(String[] args) {
+//         bubblesort thread = new bubblesort();
+//         thread.start();
+//         System.out.println(amount);
+//         amount++;
+//         System.out.println(amount);
+//     }
+
+//     public void run() {
+//         amount++;
+//     }
+// }

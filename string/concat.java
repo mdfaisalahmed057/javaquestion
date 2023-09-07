@@ -1,7 +1,7 @@
-// // public boolean repeatedSubstringPattern(String str) {
-// //     String s = str + str;
-// //     return s.substring(1, s.length() - 1).contains(str);
-// // }
+// public boolean repeatedSubstringPattern(String str) {
+//     String s = str + str;
+//     return s.substring(1, s.length() - 1).contains(str);
+// }
 // public boolean repeatedSubstringPattern(String str) {
 // 	int l = str.length();
 // 	for(int i=l/2;i>=1;i--) {

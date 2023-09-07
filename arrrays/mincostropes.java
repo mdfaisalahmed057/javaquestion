@@ -1,15 +1,10 @@
-package arrrays;
-
+ 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class mincostropes {
     public static void main(String[] args) {
         int arr[]={4,3,2,6};
-        
-      
-
-     
         Arrays.sort(arr);// 2,3,4,6
         int sum = 0;
         int ans = 0;

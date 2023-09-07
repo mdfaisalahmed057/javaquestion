@@ -19,16 +19,13 @@ public class longcommonprefix {
        public static String longestCommonPrefix(String[] strs) {
         String r="";
         int n=strs.length;
-        Arrays.sort(strs);//Sorted first
+          Arrays.sort(strs);//Sorted first
         System.out.println(Arrays.toString(strs));
         String s=strs[0];//smallest no of char
         String h=strs[n-1];//highest no of char
-       
-
         for(int i =0;i<s.length();i++)//taken smallest length so that run time will be less
         {
-            System.out.println(s);
-            if(s.charAt(i)!=h.charAt(i))
+             if(s.charAt(i)!=h.charAt(i))
              break;
             r=r+s.charAt(i);  
         }

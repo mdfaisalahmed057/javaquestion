@@ -8,7 +8,6 @@ public class fibbonacci {
             b = b + a;
             a = temp;
             i++;
-
         }
         System.out.println(b);
     }

@@ -113,10 +113,12 @@ public class classex {
     
 }
 */
-class C 
+
+class C
 {
     static int a;
     static int b;
+ 
     public static void main(String[] args) {
         int a=10;
         int b=20;
@@ -129,9 +131,6 @@ class C
         System.out.println(C.a);
         System.out.println(b);
         System.out.println(C.b);
-
-
-
     }
     public static void test(){
         int b=30;
