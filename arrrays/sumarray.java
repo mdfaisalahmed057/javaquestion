@@ -1,5 +1,4 @@
-package arrrays;
-
+ 
 import java.util.Scanner;
 
 public class sumarray {

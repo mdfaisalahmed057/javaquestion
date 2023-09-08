@@ -1,22 +1,16 @@
-package arrrays.companies;
-import java.util.*;
+ import java.util.*;
 public class bulbmachine
 {
     public static void main (String[]args)
     {
-        Scanner sc = new Scanner (System.in);
-        int n = sc.nextInt ();
-        int a[] = new int[n];
-        
-        for (int i = 0; i < n; i++)
-            a[i] = sc.nextInt ();
-        Arrays.sort (a);
+         int a[]={1,2,3,4};
+         Arrays.sort(a);
         ArrayList < Integer > a1 = new ArrayList <> ();
-     
+      
         for (int i = a.length - 1; i >= 0; i--)
         {
             int x = 0;
-            x = a[i] * (a.length - i);
+            x = a[i] * (a.length - i);//1*1=1,4,3
             a1.add (x);
         }
      

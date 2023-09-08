@@ -25,8 +25,13 @@
 //     }
   
 // }
+<<<<<<< HEAD
  
 
+=======
+
+ 
+>>>>>>> 8e28f23980cde7795fe372443e6c3fc44bde0975
 import java.util.Arrays;
 
 public class kthsmall{

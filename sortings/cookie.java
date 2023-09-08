@@ -16,7 +16,7 @@ public class cookie {
 
     public static void main(String[] args) {
         int g[]={1,2,3};
-        int s[]={1,1};
+        int s[]={1,2,4};
         System.out.println(coo(g, s));
     }
         static int coo(int g[],int s[]){

@@ -6,16 +6,17 @@ public class anangram {
         System.out.println(d.chars());
 
         boolean isanagram = true;
-        String a = "amb";
-        String b = "baa";
+        String a = "race";
+        String b = "care";
         int al[] = new int[256];
         int bl[] = new int[256];
         
         for (char c : a.toCharArray()) {
             int index = (int) c;
+            System.out.println("index value"+"  "+index);
             al[index]++;
         }
-        for (char c : b.toCharArray()) {
+         for (char c : b.toCharArray()) {
             int index = (int) c;
             bl[index]++;
         }

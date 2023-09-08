@@ -1,10 +1,9 @@
-package arrrays.companies;
-
+ 
 public class revsum {
     public static void main(String[] args) {
-        int num=21;
+        int num=11;
         int ans=name(num);
-        if(ans>num){
+        if(ans>=num){
             System.out.println("1");
         }
         else{
